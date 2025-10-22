@@ -1,58 +1,101 @@
-###PM-AJAY Project Management Dashboard
-A centralized portal for mapping, monitoring, and accelerating the execution of PM-AJAY scheme components across agencies, with emphasis on fund tracking, transparency, AI-driven conflict detection, and real-time coordination.
+# PM-AJAY Project Management Dashboard
 
+A centralized digital governance platform designed to **map, monitor, and accelerate** the execution of the *Pradhan Mantri Anusuchit Jaati Abhyuday Yojna (PM-AJAY)* scheme. It ensures **real-time fund tracking**, **AI-driven conflict detection**, and **data transparency** across **central, state, and district agencies**, enabling efficient project supervision and accountability.
 
-##Overview
-PM-AJAY Project Management Dashboard is built to address the challenges of coordination, fund flow, and project tracking across multiple government agencies under the PM-AJAY scheme. It leverages real-time analytics and intelligent alerts to reduce delays, prevent fund leakage, and increase transparency for all stakeholders.
+---
 
-##Features
-Smart Agency Mapping: Searchable directory for agency roles, capacity, and contact details at all administrative levels.
+## Overview
 
-Real-Time Fund Tracker: Visual pipeline for fund movement with timestamps, delay detection, and audit trail.
+The **PM-AJAY Project Management Dashboard** resolves challenges in coordination, fund flow, and project tracking across multiple government entities. The system integrates **real-time analytics**, **secure document management**, and **automated alerts** to minimize delays, eliminate fund leakage, and deliver transparent insights for all stakeholders through a unified interface.
 
-Multi-Agency Coordination Rooms: Digital workspaces for inter-agency document sharing and scheduling.
+---
 
-AI Conflict Detection: Automated alert system for timeline/resource clashes using AI.
+## Key Features
 
-Mobile-First Interface: Enables offline status updates from field officers.
+- **Smart Agency Mapping:** Dynamic search for agency roles, functions, and contact hierarchies across administrative levels.  
+- **Real-Time Fund Tracker:** Visualizes fund pipelines with timestamps, audit trails, and delay alerts.  
+- **Multi-Agency Coordination Rooms:** Digital workspaces for inter-agency collaboration, document exchange, and meeting scheduling.  
+- **AI Conflict Detection:** Uses AI to detect scheduling overlaps, resource conflicts, and project timeline risks.  
+- **Dashboard Analytics:** Drill-down visual dashboards for fund utilization, project milestones, and performance metrics.  
+- **Document Management System:** Secure version-controlled storage and sharing of project files.  
+- **Smart Meeting Scheduler:** Enables synchronized meeting scheduling and integration with agency calendars.  
+- **Mobile-First Interface:** Supports offline updates from field officers for real-time progress capture.  
 
-Dashboard Analytics: Drill-down dashboards for project status, fund utilization, and hotspots.
+---
 
-Document Management: Secure management and sharing of project-related files.
+## Advanced Security and Innovation
 
-Meeting Scheduler: Integrated platform for scheduling and tracking agency meetings.
+- **OPSWAT MetaDefender:** Multi-engine malware scanning (30+ engines), sandboxing, and Deep CDR for real-time file sanitization.  
+- **Nessus Vulnerability Management:** Automated vulnerability scanning for detecting misconfigurations and compliance risks across systems.  
+- **Blockchain Integration:** Decentralized ledger ensures tamper-proof fund tracking, authentic document validation, and transparent auditability.  
+- **AI Engine:** Employs NLP and intelligent summarization for anomaly detection and progress analytics.
 
-##Tech Stack
-Frontend: TypeScript, CSS
+---
 
-Backend: (Add your backend stack if relevant)
+## Tech Stack
 
-Database: (Specify if any)
+| Layer           | Technology                                 |
+|-----------------|--------------------------------------------|
+| **Frontend**    | TypeScript, React.js, Tailwind CSS         |
+| **Backend**     | Node.js / FastAPI (configurable)            |
+| **Database**    | MongoDB / PostgreSQL                         |
+| **AI Module**   | Python (LangChain / GPT-based analytics)    |
+| **Security**   | OPSWAT MetaDefender, Nessus Integration     |
+| **Blockchain** | Private Ethereum Network / Hyperledger Fabric|
+| **Hosting**    | AWS EC2, S3, or NIC Cloud Infrastructure     |
 
-Other: (Blockchain/SLA/AI modules if applicable)
+---
 
-##Getting Started
-Clone the repository:
+## Getting Started
 
-bash
-git clone https://github.com/Dhruv290405/pmajay.git
-Install dependencies:
+1. **Clone the Repository**
+   git clone https://github.com/Dhruv290405/pmajay.git
+   cd pmajay
+      
+3. **Install Dependencies**
+   npm install
+   
+4. **Run the Application**
+   npm start
 
-bash
-npm install
-Run the app:
+   
+For AI modules, offline functionality, or blockchain setup, refer to `/docs/setup.md`.
 
-bash
-npm start
-For offline/mobile functionality or AI modules, configure as per /docs/setup.md (if applicable).
+---
 
-Contributing
-Contributions are welcome! Please open issues or submit pull requests for features, bug fixes, or documentation improvements.
+## UI Screenshots
 
-Team
-code_veda 
+![Dashboard Overview](./images/dashboard_overview.png)  
+*Project dashboard with fund tracker and agency mapping.*
 
-##License
-Specify the license under which the project is released (e.g., MIT, Apache 2.0).
+![Fund Flow Visualization](./images/fund_flow.png)  
+*Real-time fund movement pipeline with audit timestamps.*
 
-Feel free to customize the README further with deployment links, more screenshots, or additional setup instructions as you finalize your codebase and documentation.
+![AI Conflict Alerts](./images/conflict_alerts.png)  
+*AI-generated alerts for scheduling and resource conflicts.*
+
+![Mobile Offline Mode](./images/mobile_offline.png)  
+*Offline update interface for field officers.*
+
+*(Add or replace screenshots as appropriate)*
+
+---
+
+## Contribution
+
+Contributions from developers, researchers, and government partners are welcome.  
+Please raise issues or submit pull requests to enhance features, fix bugs, or improve documentation.
+
+**Team:** code_veda  
+*(Smart India Hackathon 2025 Project Submission)*
+
+---
+
+## License
+
+This project is licensed under the **MIT License**.  
+See the `LICENSE` file for details.
+
+---
+
+   
